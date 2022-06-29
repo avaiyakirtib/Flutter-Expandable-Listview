@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../commans/colors.dart';
+
 
 
 class AppCheckBox extends StatelessWidget {
@@ -13,8 +15,8 @@ class AppCheckBox extends StatelessWidget {
     return CheckboxListTile(
         controlAffinity: ListTileControlAffinity.leading,
         value: value,
-        checkColor: Colors.black54,
-        activeColor: Colors.white54,
+        checkColor: BLACK_COLOR,
+        activeColor: WHITE_COLOR,
         title: Text(title),
         contentPadding: EdgeInsets.zero,
         onChanged: onChanged);

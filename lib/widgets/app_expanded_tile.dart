@@ -4,10 +4,9 @@ import 'custom_check_box.dart';
 
 
 class AppExpandedTile extends StatelessWidget {
-  final String boxText;
   final String boxTitle;
   final List<Widget> children;
-  const AppExpandedTile({required this.boxText,required this.boxTitle,required this.children,Key? key}) : super(key: key);
+  const AppExpandedTile({required this.boxTitle,required this.children,Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +17,6 @@ class AppExpandedTile extends StatelessWidget {
         contentPadding: const EdgeInsets.all(0),
 
         child: ExpansionTile(
-
           iconColor: Colors.black,
           textColor: Colors.black,
           childrenPadding: const EdgeInsets.only(left: 50),
@@ -27,7 +25,7 @@ class AppExpandedTile extends StatelessWidget {
           title: Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              CustomBox(text:boxText),
+              const CustomBox(text:'➖'),
               Text(
                 boxTitle,
                 style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),

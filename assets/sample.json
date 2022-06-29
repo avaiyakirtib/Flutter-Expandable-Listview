@@ -1,0 +1,200 @@
+{
+  "item": [
+    {
+      "id": "Phone",
+      "name": "Phone",
+      "subItem": [
+        {
+          "id": "Color",
+          "name": "Color",
+          "list": [
+            {
+              "id": "Red",
+              "name": "Red"
+            },
+            {
+              "id": "Yellow",
+              "name": "Yellow"
+            },
+            {
+              "id": "Silver",
+              "name": "Silver"
+            },
+            {
+              "id": "White",
+              "name": "White"
+            },
+            {
+              "id": "Blue",
+              "name": "Blue"
+            },
+            {
+              "id": "Grey",
+              "name": "Grey"
+            },
+            {
+              "id": "Black",
+              "name": "Black"
+            }
+          ]
+        },
+        {
+          "id": "Brand",
+          "name": "Brand",
+          "list": [
+            {
+              "id": "Samsung",
+              "name": "Samsung"
+            },
+            {
+              "id": "Apple",
+              "name": "Apple"
+            },
+            {
+              "id": "Nokia",
+              "name": "Nokia"
+            },
+            {
+              "id": "Huawel",
+              "name": "Huawel"
+            },
+            {
+              "id": "Sony",
+              "name": "Sony"
+            },
+            {
+              "id": "LG",
+              "name": "LG"
+            },
+            {
+              "id": "Motorola",
+              "name": "Motorola"
+            },
+            {
+              "id": "HTC",
+              "name": "HTC"
+            }
+          ]
+        },
+        {
+          "id": "Price",
+          "name": "Price",
+          "list": [
+            {
+              "id": "0-1000",
+              "name": "0-1000"
+            },
+            {
+              "id": "1000-5000",
+              "name": "1000-5000"
+            },
+            {
+              "id": "5000-10000",
+              "name": "5000-10000"
+            },
+            {
+              "id": "10000-20000",
+              "name": "10000-20000"
+            },
+            {
+              "id": "20000-30000",
+              "name": "20000-30000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Laptop",
+      "name": "Laptop",
+      "subItem": [
+        {
+          "id": "Color",
+          "name": "Color",
+          "list": [
+            {
+              "id": "Red",
+              "name": "Red"
+            },
+            {
+              "id": "Purple",
+              "name": "Purple"
+            },
+            {
+              "id": "Silver",
+              "name": "Silver"
+            },
+            {
+              "id": "White",
+              "name": "White"
+            },
+            {
+              "id": "Blue",
+              "name": "Blue"
+            },
+            {
+              "id": "Grey",
+              "name": "Grey"
+            },
+            {
+              "id": "Black",
+              "name": "Black"
+            }
+          ]
+        },
+        {
+          "id": "Brand",
+          "name": "Brand",
+          "list": [
+            {
+              "id": "HP",
+              "name": "HP"
+            },
+            {
+              "id": "Dell",
+              "name": "Dell"
+            },
+            {
+              "id": "Lenovo",
+              "name": "Lenovo"
+            },
+            {
+              "id": "Apple",
+              "name": "Apple"
+            },
+            {
+              "id": "Sony",
+              "name": "Sony"
+            },
+            {
+              "id": "Acer",
+              "name": "Acer"
+            },
+            {
+              "id": "Asus",
+              "name": "Asus"
+            },
+            {
+              "id": "Thinkpad",
+              "name": "Thinkpad"
+            }
+          ]
+        },
+        {
+          "id": "Price",
+          "name": "Price",
+          "list": [
+            {
+              "id": "10000-100000",
+              "name": "10000-100000"
+            },
+            {
+              "id": "100000-200000",
+              "name": "100000-200000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

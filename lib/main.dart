@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'alert_dialog/brand_filter.dart';
 import 'commans/colors.dart';
 
-
-
-
 void main() {
   runApp(const MyApp());
 }
